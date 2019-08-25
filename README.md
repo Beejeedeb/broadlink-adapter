@@ -19,7 +19,7 @@ Exucute the following comand and answer displayed questions.
 
 ```shell
 cd ~/.mozilla-iot/addons/broadlink-adapter
-node asset/learncode
+NODE_PATH=~/mozilla-iot/gateway/node_modules node asset/learncode.js
 ```
 
 If you answer questions till the end, JSON will be output to console.
